@@ -1,0 +1,70 @@
+h1 {
+  font-size: 2rem;
+  margin: 0;
+}
+
+.title {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 3rem;
+  padding: 0 1rem;
+}
+
+.blogCount {
+  color: #dddddd;
+  font-size: 1rem;
+}
+
+.link {
+  text-decoration: none;
+  color: #333333;
+}
+
+
+/* about blog list*/
+
+.blogBlock {
+  padding: 1rem;
+  border: 1px solid #fafafa;
+  margin-bottom: 0.5rem;
+}
+
+.blogBlock:hover {
+  border-radius: 20px;
+  background: #ffffff;
+  border: 1px solid rgba(220, 220, 220, 0.4);
+  box-shadow:  0 0 20px -10px rgba(220, 220, 220, 1);
+}
+
+.blogBlock:active { 
+  /* for mobile */
+  border-radius: 20px;
+  background: #ffffff;
+  border: 1px solid rgba(220, 220, 220, 0.4);
+  box-shadow:  0 0 20px -10px rgba(220, 220, 220, 1);
+}
+
+.blogTitle {
+  font-size: 1.4rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+h2 {
+  margin: 0;
+}
+
+.blogDate {
+  color: #dddddd;
+  font-size: 0.875rem;
+  font-weight: 400;
+}
+
+.blogData {
+  color: #999999;
+  font-size: 0.75rem;
+}

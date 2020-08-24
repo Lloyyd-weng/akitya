@@ -1,0 +1,25 @@
+.header {
+  background-color: #ffffff;
+  height: 60px;
+  border-bottom: 1px solid #EEEEEE;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  width: 34px;
+  height: 34px;
+  background-image: url(../images/logo.svg);
+}
+
+.main {
+  padding: 15vh calc( 50vw - 340px );
+}
+
+@media screen and (max-device-width: 800px) {
+  .main {
+    padding: 10vh 1rem;
+  }
+}

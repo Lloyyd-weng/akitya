@@ -1,0 +1,25 @@
+.blogTitle {
+  margin-bottom: 1rem;
+}
+
+.publishDate {
+  margin-bottom: 2rem;
+  color: #999999;
+  font-size: 0.875rem;
+}
+
+.blogBody {
+  font-size: 1.3rem;
+  line-height: 2;
+}
+
+@media screen and (max-device-width: 800px) {
+  .main {
+    padding: 0 1rem;
+  }
+
+  .blogBody {
+    font-size: 1rem;
+    line-height: 2;
+  }
+}

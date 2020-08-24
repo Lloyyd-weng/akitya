@@ -1,0 +1,21 @@
+html {
+  background-color: #fafafa;
+  font-size: 16px;
+  font-family: 'Noto Serif TC', serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+  margin: 0;
+}
+
+::-moz-selection {
+  color: #fafafa;
+  background: #333333;
+}
+
+::selection {
+  color: #fafafa;
+  background: #333333;
+}
